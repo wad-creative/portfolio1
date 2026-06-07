@@ -31,7 +31,7 @@ export default function TechStack() {
             <div className="flex-1 h-px bg-linear-to-l from-transparent via-border to-transparent" />
           </div>
 
-          <div className="flex flex-col gap-y-3 items-center justify-center max-w-[800px] px-4">
+          <div className="flex flex-col gap-y-3 items-center justify-center max-w-200 px-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center">
               Master the industry-leading technologies
             </h2>
