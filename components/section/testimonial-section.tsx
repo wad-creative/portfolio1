@@ -2,7 +2,6 @@
 
 import { AnimatedTestimonials } from "../ui/animated-testimonials";
 import BlurFade from "../magicui/blur-fade";
-import { useState } from "react";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -12,27 +11,25 @@ const TESTIMONIALS = [
       "The growth engine built for our tax and auction operations has completely transformed our workflow. The attention to detail is exactly what we needed to scale Carl Business Group.",
     name: "Mr. Carl",
     designation: "Founder of Carl Business Group",
-    src: "testimonial-1.jpg",
+    src: "/testimonial-1.jpg", // Added leading slash
   },
   {
     quote:
       "Our e-commerce presence has never been stronger. The beard care collection website is sleek, fast, and most importantly, it converts visitors into loyal customers.",
     name: "Mr. Yvenson",
     designation: "CEO of NoLimit King",
-    src: "testimonial-2.jpg",
+    src: "/testimonial-2.jpg", // Added leading slash
   },
   {
     quote:
       "The digital portal for our consultation services has significantly improved our team's productivity. It makes complex immigration and tax tasks simple for our clients.",
     name: "Mr. Wedly",
-    designation: " CEO of KS Global Services",
-    src: "testimonial-3.jpg",
+    designation: "CEO of KS Global Services",
+    src: "/testimonial-3.jpg", // Added leading slash
   },
 ];
 
 export default function TestimonialsSection() {
-  const [isHovered, setIsHovered] = useState(false);
-
   return (
     <section id="testimonials" className="py-12">
       <div className="flex min-h-0 flex-col gap-y-12">
@@ -62,15 +59,9 @@ export default function TestimonialsSection() {
 
         {/* Animated Testimonials Component */}
         <BlurFade delay={BLUR_FADE_DELAY * 15}>
-          <div
-            className="max-w-5xl mx-auto px-4"
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-          >
-            <AnimatedTestimonials
-              testimonials={TESTIMONIALS}
-              autoplay={!isHovered}
-            />
+          <div className="max-w-5xl mx-auto px-4">
+            {/* Let the component handle its own internal state/hover logic */}
+            <AnimatedTestimonials testimonials={TESTIMONIALS} autoplay={true} />
           </div>
         </BlurFade>
 
