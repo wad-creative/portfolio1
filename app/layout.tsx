@@ -23,13 +23,13 @@ export const metadata = {
   description: "Wad-Creative's Portfolio",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html suppressHydrationWarning>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased relative",
@@ -44,7 +44,7 @@ export default function RootLayout({
         >
           <TooltipProvider delayDuration={0}>
             {/* Top Grid */}
-            <div className="absolute inset-x-0 top-0 h-[100px] overflow-hidden z-0 pointer-events-none">
+            <div className="absolute inset-x-0 top-0 h-25 overflow-hidden z-0 pointer-events-none">
               <FlickeringGrid
                 className="h-full w-full"
                 squareSize={8}
@@ -62,7 +62,7 @@ export default function RootLayout({
             </div>
 
             {/* Bottom Grid */}
-            <div className="absolute inset-x-0 bottom-0 h-[100px] overflow-hidden z-0 pointer-events-none">
+            <div className="absolute inset-x-0 bottom-0 h-25 overflow-hidden z-0 pointer-events-none">
               <FlickeringGrid
                 className="h-full w-full"
                 squareSize={8}
