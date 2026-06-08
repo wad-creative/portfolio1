@@ -13,7 +13,7 @@ export default function MobileAppSection() {
             <div className="flex-1 h-px bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent" />
             <div className="border bg-primary z-10 rounded-xl px-4 py-1">
               <span className="text-background text-sm font-medium">
-                Mobile App Development
+                Applications Mobiles Sur Mesure
               </span>
             </div>
             <div className="flex-1 h-px bg-linear-to-l from-transparent from-5% via-border via-95% to-transparent" />
@@ -21,13 +21,14 @@ export default function MobileAppSection() {
 
           <div className="flex flex-col gap-y-3 items-center justify-center max-w-200 px-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center">
-              Put your business in the palm of your customers' hands.
+              Des Applications Mobiles Sur Mesure.
             </h2>
             <p className="md:text-lg/relaxed text-balance text-center">
-              A custom mobile app connects you directly to your audience. I
-              deliver reliable, cross-platform solutions that elevate your
-              brand, streamline sales, and drive revenue directly from your
-              customers' phones.
+              Une application mobile est un véritable levier de croissance et de
+              proximité avec vos utilisateurs. Je développe des solutions
+              multiplateformes fiables, intuitives et évolutives, conçues pour
+              offrir une expérience optimale et soutenir le développement de
+              votre activité.
             </p>
           </div>
         </div>
@@ -47,11 +48,12 @@ export default function MobileAppSection() {
             <p className=" text-sm italic text-center max-w-125">
               "{" "}
               <strong>
-                We handle the technical complexity so you can stay focused on
-                running your business.
+                Je prends en charge toute la complexité technique pour vous
+                laisser vous concentrer exclusivement sur la croissance de votre
+                entreprise.
               </strong>{" "}
-              Don't just stop at the web—own real estate on your customers'
-              phones."
+              Ne vous limitez pas au web : sécurisez dès aujourd'hui votre place
+              sur l'écran d'accueil de vos clients."
             </p>
           </div>
         </BlurFade>

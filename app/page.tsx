@@ -20,7 +20,7 @@ export default function Page() {
               {/* The Badge */}
               <BlurFade delay={BLUR_FADE_DELAY}>
                 <span className="inline-flex items-center rounded-full bg-gray-50 px-3 py-1 text-xs dark:text-white dark:bg-gray-900 font-medium text-primary border-1 dark:border-0 border-green-400">
-                  Available for New Projects
+                  Disponible pour de nouveaux projets
                 </span>
               </BlurFade>
 
@@ -28,13 +28,13 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-3xl xl:text-5xl/none"
                 yOffset={8}
-                text="Building solutions that drive growth for businesses."
+                text="Je developpe des solutions digitales conçues pour maximiser votre rentabilité."
               />
 
               <BlurFadeText
                 className="max-w-[600px] md:text-lg text-muted-foreground text-pretty leading-relaxed"
                 delay={BLUR_FADE_DELAY}
-                text="I transform websites into profit-generating assets through strategic development, local SEO dominance, and high-conversion marketing."
+                text="Je developpe des plateformes web pour garantir une croissance rentables grâce au développement sur mesure, à l'optimisation SEO locale et au marketing de conversion."
               />
 
               {/* Refined Single CTA Section */}
@@ -47,14 +47,15 @@ export default function Page() {
                     className="inline-flex items-center justify-center gap-2 bg-green-500 text-background px-4 py-2.5 rounded-lg font-semibold hover:opacity-90 transition shadow-primary/20 w-fit"
                   >
                     <MessageCircle className="h-5 w-5" />
-                    Chat with me
+                    Discuter avec moi
                   </a>
                 </div>
               </BlurFade>
 
               <BlurFade delay={BLUR_FADE_DELAY * 4}>
                 <p className="text-sm font-medium text-muted-foreground italic">
-                  By <b>Wadley Alphonse</b> — Your Strategic Growth Partner
+                  Par <b>Wadley Alphonse</b> — Votre Partenaire de Croissance
+                  Stratégique
                 </p>
               </BlurFade>
             </div>

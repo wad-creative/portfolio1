@@ -25,7 +25,7 @@ export default function TechStack() {
             <div className="flex-1 h-px bg-linear-to-r from-transparent via-border to-transparent" />
             <div className="border bg-primary z-10 rounded-xl px-4 py-1 shrink-0 mx-4">
               <span className="text-background text-sm font-medium">
-                The Toolkit
+                Technologies & outils
               </span>
             </div>
             <div className="flex-1 h-px bg-linear-to-l from-transparent via-border to-transparent" />
@@ -33,11 +33,14 @@ export default function TechStack() {
 
           <div className="flex flex-col gap-y-3 items-center justify-center max-w-200 px-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center">
-              Master the industry-leading technologies
+              Une Stack Moderne pour des Performances Inégalées.
             </h2>
             <p className="md:text-lg/relaxed text-muted-foreground text-balance text-center">
-              I utilize a modern, scalable stack designed to handle high-traffic
-              demands and provide seamless user experiences.
+              Je m'appuie sur une stack moderne, ultra-performante et
+              parfaitement évolutive, sélectionnée pour supporter de forts
+              volumes de trafic, offrir des expériences fluides sans aucun
+              ralentissement et offrir une sécurité et une fiabilité
+              exceptionnelles.
             </p>
           </div>
         </div>

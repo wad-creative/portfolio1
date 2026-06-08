@@ -5,27 +5,27 @@ const BLUR_FADE_DELAY = 0.04;
 
 const SERVICES = [
   {
-    title: "Custom Development",
+    title: "Développement Stratégique",
     description:
-      "High-performance web applications engineered for high conversion rates. I don't just build websites, I build digital growth engines.",
+      "Des applications web de pointe taillées sur mesure pour la conversion. Plus que de simples sites internet, je conçois de véritables moteurs de vente digitaux.",
     icon: <Rocket className="h-6 w-6 text-blue-500" />,
   },
   {
-    title: "Total Visibility",
+    title: "Domination Locale (SEO)",
     description:
-      "Comprehensive Google Business and Maps optimization to ensure local customers find you first and dominate local search.",
+      "Une optimisation de pointe sur Google Business et Maps pour garantir que vos clients de proximité vous trouvent avant vos concurrents directs.",
     icon: <MapPin className="h-6 w-6 text-red-500" />,
   },
   {
-    title: "Actionable Data",
+    title: "Data & Analyses Actionnables",
     description:
-      "Integrated analytics to track visitor behavior, allowing you to refine strategy over time and maximize profitability.",
+      "Intégration d'outils d'analyse précis pour décrypter le comportement de vos visiteurs afin de piloter votre stratégie et maximiser votre visibilité.",
     icon: <BarChart3 className="h-6 w-6 text-emerald-500" />,
   },
   {
-    title: "Scalable Reach",
+    title: "Acquisition & Performance",
     description:
-      "One-on-one professional Facebook Ads coaching designed to turn clicks into consistent revenue and long-term growth.",
+      "Coaching sur mesure Facebook Ads pour transformer vos campagnes publicitaires en flux constants de prospects qualifiés et de rentabilité durable.",
     icon: <MousePointerClick className="h-6 w-6 text-purple-500" />,
   },
 ];
@@ -40,7 +40,7 @@ export default function WhatNewSection() {
             <div className="flex-1 h-px bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent" />
             <div className="border bg-primary z-10 rounded-xl px-4 py-1">
               <span className="text-background text-sm font-medium">
-                The Evolution
+                La Nouvelle Vision
               </span>
             </div>
             <div className="flex-1 h-px bg-linear-to-l from-transparent from-5% via-border via-95% to-transparent" />
@@ -48,13 +48,15 @@ export default function WhatNewSection() {
 
           <div className="flex flex-col gap-y-3 items-center justify-center max-w-[800px] px-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center">
-              A website is only powerful if it generates profits.
+              Un site internet n'a de valeur que s'il génère du chiffre
+              d'affaires.
             </h2>
             <p className="md:text-lg/relaxed text-balance text-center">
-              I am shifting from being a developer who "just builds websites" to
-              becoming a{" "}
-              <strong>strategic growth partner for businesses</strong>. I no
-              longer just write code; I build digital growth engines.
+              Je choisis de dépasser le rôle de simple développeur de site web
+              pour devenir votre{" "}
+              <strong>partenaire stratégique de croissance</strong>. Mon
+              objectif est de bâtir des solutions selon vos besoins spécifiques,
+              conçues pour maximiser votre rentabilité.
             </p>
           </div>
         </div>
@@ -89,10 +91,11 @@ export default function WhatNewSection() {
             <p className=" text-sm italic text-center max-w-[500px]">
               "{" "}
               <strong>
-                We handle the technical complexity so you can stay focused on
-                running your business.
+                Je m'occupe de la complexité technique pour vous permettre de
+                rester focalisé sur votre business.
               </strong>{" "}
-              Don’t just get a website—get a dominant online presence."
+              Ne cherchez plus un simple site web, mais une solution
+              stratégique."
             </p>
           </div>
         </BlurFade>

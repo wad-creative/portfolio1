@@ -26,10 +26,8 @@ function ProjectImage({ src, alt }: { src: string; alt: string }) {
 interface Props {
   title: string;
   href?: string;
-  description: string;
   dates: string;
   tags: readonly string[];
-  link?: string;
   image?: string;
   video?: string;
   links?: readonly {
@@ -43,10 +41,8 @@ interface Props {
 export function ProjectCard({
   title,
   href,
-  description,
   dates,
   tags,
-  link,
   image,
   video,
   links,

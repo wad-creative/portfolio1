@@ -31,7 +31,7 @@ export default function LatestWork() {
             <div className="flex-1 h-px bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent" />
             <div className="border bg-primary z-10 rounded-xl px-4 py-1">
               <span className="text-background text-sm font-medium">
-                Latest Work
+                Projets Récents
               </span>
             </div>
             <div className="flex-1 h-px bg-linear-to-l from-transparent from-5% via-border via-95% to-transparent" />
@@ -39,12 +39,13 @@ export default function LatestWork() {
 
           <div className="flex flex-col gap-y-3 items-center justify-center max-w-200 px-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center">
-              Proven Results
+              Des Résultats Concrets
             </h2>
             <p className="md:text-lg/relaxed text-muted-foreground text-balance text-center">
-              A look at how I’ve helped businesses build a high-performance
-              digital presence. Every project is optimized for speed, designed
-              for conversion, and built to scale.
+              Découvrez comment j'aide les entreprises à s'imposer sur le web
+              avec une présence digitale ultra-performante. Chaque plateforme
+              est optimisée pour la vitesse, pensée pour maximiser les
+              conversions et taillée pour la croissance.
             </p>
           </div>
         </div>

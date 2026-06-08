@@ -8,24 +8,24 @@ const BLUR_FADE_DELAY = 0.04;
 const TESTIMONIALS = [
   {
     quote:
-      "The growth engine built for our tax and auction operations has completely transformed our workflow. The attention to detail is exactly what we needed to scale Carl Business Group.",
+      "La plateforme développée pour nos services fiscaux, nos formations en trading et nos enchères a simplifié notre gestion et amélioré l'expérience de nos clients.",
     name: "Mr. Carl",
-    designation: "Founder of Carl Business Group",
-    src: "/testimonial1.jpg", // Added leading slash
+    designation: "Fondateur de Carl Business Group",
+    src: "/testimonial1.jpg",
   },
   {
     quote:
-      "Our e-commerce presence has never been stronger. The beard care collection website is sleek, fast, and most importantly, it converts visitors into loyal customers.",
+      "Notre boutique en ligne est rapide, moderne et met parfaitement en valeur nos produits. Une excellente expérience pour nos clients.",
     name: "Mr. Yvenson",
-    designation: "CEO of NoLimit King",
-    src: "/testimonial2.JPG", // Added leading slash
+    designation: "PDG de NoLimit King",
+    src: "/testimonial2.JPG",
   },
   {
     quote:
-      "The digital portal for our consultation services has significantly improved our team's productivity. It makes complex immigration and tax tasks simple for our clients.",
+      "Notre plateforme de services fiscaux et de consultation est plus efficace que jamais. Tout est plus simple, rapide et bien organisé.",
     name: "Mr. Wedly",
-    designation: "CEO of KS Global Services",
-    src: "/testimonial3.jpg", // Added leading slash
+    designation: "PDG de KS Global Services",
+    src: "/testimonial3.jpg",
   },
 ];
 
@@ -39,7 +39,7 @@ export default function TestimonialsSection() {
             <div className="flex-1 h-px bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent" />
             <div className="border bg-primary z-10 rounded-xl px-4 py-1">
               <span className="text-background text-sm font-medium">
-                Testimonials
+                Témoignages
               </span>
             </div>
             <div className="flex-1 h-px bg-linear-to-l from-transparent from-5% via-border via-95% to-transparent" />
@@ -47,12 +47,12 @@ export default function TestimonialsSection() {
 
           <div className="flex flex-col gap-y-3 items-center justify-center max-w-[800px] px-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center">
-              What real businesses are saying.
+              Quelques Témoignages.
             </h2>
             <p className="md:text-lg/relaxed text-muted-foreground text-balance text-center">
-              Don’t just take my word for it. Here is how my strategic approach
-              is helping businesses reach their goals and drive real
-              profitability.
+              La meilleure preuve reste leur réussite. Découvrez comment mon
+              approche stratégique aide concrètement les entreprises à atteindre
+              leurs objectifs et maximiser leur rentabilité.
             </p>
           </div>
         </div>
@@ -60,7 +60,6 @@ export default function TestimonialsSection() {
         {/* Animated Testimonials Component */}
         <BlurFade delay={BLUR_FADE_DELAY * 15}>
           <div className="max-w-5xl mx-auto px-4">
-            {/* Let the component handle its own internal state/hover logic */}
             <AnimatedTestimonials testimonials={TESTIMONIALS} autoplay={true} />
           </div>
         </BlurFade>

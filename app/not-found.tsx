@@ -12,17 +12,17 @@ export default function NotFound() {
             404
           </h1>
           <h2 className="text-4xl tracking-tight font-semibold text-foreground mb-2">
-            Page Not Found
+            Page Non Trouvée
           </h2>
           <p className="text-muted-foreground mb-8 text-balance tracking-tight font-medium">
-            The page you&apos;re looking for doesn&apos;t exist or may have been
-            moved.
+            La page que vous recherchez n&apos;existe pas ou a peut-être été
+            déplacée.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link href="/">
               <Button variant="outline" className="gap-2 cursor-pointer">
                 <Home className="h-4 w-4" />
-                Go to Home
+                Retour à l&apos;accueil
               </Button>
             </Link>
           </div>
