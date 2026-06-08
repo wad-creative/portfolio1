@@ -11,28 +11,28 @@ const TESTIMONIALS = [
       "The growth engine built for our tax and auction operations has completely transformed our workflow. The attention to detail is exactly what we needed to scale Carl Business Group.",
     name: "Mr. Carl",
     designation: "Founder of Carl Business Group",
-    src: "/testimonial-1.jpg", // Added leading slash
+    src: "/testimonial1.jpg", // Added leading slash
   },
   {
     quote:
       "Our e-commerce presence has never been stronger. The beard care collection website is sleek, fast, and most importantly, it converts visitors into loyal customers.",
     name: "Mr. Yvenson",
     designation: "CEO of NoLimit King",
-    src: "/testimonial-2.jpg", // Added leading slash
+    src: "/testimonial2.jpg", // Added leading slash
   },
   {
     quote:
       "The digital portal for our consultation services has significantly improved our team's productivity. It makes complex immigration and tax tasks simple for our clients.",
     name: "Mr. Wedly",
     designation: "CEO of KS Global Services",
-    src: "/testimonial-3.jpg", // Added leading slash
+    src: "/testimonial3.jpg", // Added leading slash
   },
 ];
 
 export default function TestimonialsSection() {
   return (
-    <section id="testimonials" className="py-12">
-      <div className="flex min-h-0 flex-col gap-y-12">
+    <section id="testimonials" className="py-4">
+      <div className="flex min-h-0 flex-col gap-y-4">
         {/* Header Section */}
         <div className="flex flex-col gap-y-4 items-center justify-center">
           <div className="flex items-center w-full">

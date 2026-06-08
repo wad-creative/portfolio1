@@ -59,7 +59,7 @@ export default function LatestWork() {
               <a
                 href={project.link}
                 target="_blank"
-                className="group block space-y-4"
+                className="group block space-y-2"
               >
                 {/* Refined Image Container */}
                 <div className="relative aspect-video overflow-hidden rounded-md border bg-muted shadow-sm transition-all duration-500 group-hover:shadow-xl group-hover:-translate-y-1">
@@ -79,7 +79,7 @@ export default function LatestWork() {
                 </div>
 
                 {/* Refined Typography */}
-                <div className="px-1 text-center">
+                <div className="px-1 text-center mb-4">
                   <h3 className="font-bold text-xs tracking-tight group-hover:text-primary transition-colors">
                     {project.title}
                   </h3>
