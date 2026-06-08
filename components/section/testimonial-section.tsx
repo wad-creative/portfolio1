@@ -18,7 +18,7 @@ const TESTIMONIALS = [
       "Our e-commerce presence has never been stronger. The beard care collection website is sleek, fast, and most importantly, it converts visitors into loyal customers.",
     name: "Mr. Yvenson",
     designation: "CEO of NoLimit King",
-    src: "/testimonial2.jpg", // Added leading slash
+    src: "/testimonial2.JPG", // Added leading slash
   },
   {
     quote:
