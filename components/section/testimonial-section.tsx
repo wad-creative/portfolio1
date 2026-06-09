@@ -15,14 +15,14 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "Notre boutique en ligne est rapide, moderne et met parfaitement en valeur nos produits. Une excellente expérience pour nos clients.",
+      "Notre plateforme de services fiscaux et de consultation est plus efficace que jamais. Tout est plus simple, rapide et bien organisé.",
     name: "Mr. Yvenson",
     designation: "PDG de KS Global Services",
     src: "/testimonial2.JPG",
   },
   {
     quote:
-      "Notre plateforme de services fiscaux et de consultation est plus efficace que jamais. Tout est plus simple, rapide et bien organisé.",
+      "Notre boutique en ligne est rapide, moderne et met parfaitement en valeur nos produits. Une excellente expérience pour nos clients.",
     name: "Mr. Wedly",
     designation: "PDG de NoLimit King",
     src: "/testimonial3.jpg",
