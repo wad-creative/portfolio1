@@ -57,8 +57,7 @@ export default function Page() {
 
               <BlurFade delay={BLUR_FADE_DELAY * 4}>
                 <p className="text-sm font-medium text-muted-foreground italic">
-                  {t("authorPrefix")}{" "}
-                  <b>{t("authorName")}</b> — {t("authorRole")}
+                  {t("authorRole")}
                 </p>
               </BlurFade>
             </div>
