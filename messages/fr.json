@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Wad-Creative | Développeur Web & Partenaire de Croissance",
+    "description": "Développeur web stratégique spécialisé dans les solutions digitales rentables, le SEO local et la performance."
+  },
+  "navbar": {
+    "home": "Accueil",
+    "theme": "Thème",
+    "languageToggle": "Changer de langue",
+    "switchToEn": "English",
+    "switchToFr": "Français"
+  },
+  "hero": {
+    "badge": "Disponible pour de nouveaux projets",
+    "title": "Je developpe des solutions digitales conçues pour maximiser votre rentabilité.",
+    "description": "Je developpe des plateformes web pour garantir une croissance rentables grâce au développement sur mesure, à l'optimisation SEO locale et au marketing de conversion.",
+    "cta": "Discuter avec moi",
+    "authorPrefix": "Par",
+    "authorName": "Wadley Alphonse",
+    "authorRole": "Votre Partenaire de Croissance Stratégique"
+  },
+  "whatNew": {
+    "badge": "La Nouvelle Vision",
+    "title": "Un site internet n'a de valeur que s'il génère du chiffre d'affaires.",
+    "description": "Je choisis de dépasser le rôle de simple développeur de site web pour devenir votre partenaire stratégique de croissance. Mon objectif est de bâtir des solutions selon vos besoins spécifiques, conçues pour maximiser votre rentabilité.",
+    "services": {
+      "strategic": {
+        "title": "Développement Stratégique",
+        "description": "Des applications web de pointe taillées sur mesure pour la conversion. Plus que de simples sites internet, je conçois de véritables moteurs de vente digitaux."
+      },
+      "localSeo": {
+        "title": "Domination Locale (SEO)",
+        "description": "Une optimisation de pointe sur Google Business et Maps pour garantir que vos clients de proximité vous trouvent avant vos concurrents directs."
+      },
+      "analytics": {
+        "title": "Data & Analyses Actionnables",
+        "description": "Intégration d'outils d'analyse précis pour décrypter le comportement de vos visiteurs afin de piloter votre stratégie et maximiser votre visibilité."
+      },
+      "acquisition": {
+        "title": "Acquisition & Performance",
+        "description": "Coaching sur mesure Facebook Ads pour transformer vos campagnes publicitaires en flux constants de prospects qualifiés et de rentabilité durable."
+      }
+    },
+    "quoteBold": "Je m'occupe de la complexité technique pour vous permettre de rester focalisé sur votre business.",
+    "quoteText": "Ne cherchez plus un simple site web, mais une solution stratégique."
+  },
+  "techStack": {
+    "badge": "Technologies & outils",
+    "title": "Une Stack Moderne pour des Performances Inégalées.",
+    "description": "Je m'appuie sur une stack moderne, ultra-performante et parfaitement évolutive, sélectionnée pour supporter de forts volumes de trafic, offrir des expériences fluides sans aucun ralentissement et offrir une sécurité et une fiabilité exceptionnelles."
+  },
+  "mobile": {
+    "badge": "Applications Mobiles Sur Mesure",
+    "title": "Des Applications Mobiles Sur Mesure.",
+    "description": "Une application mobile est un véritable levier de croissance et de proximité avec vos utilisateurs. Je développe des solutions multiplateformes fiables, intuitives et évolutives, conçues pour offrir une expérience optimale et soutenir le développement de votre activité.",
+    "quoteBold": "Je prends en charge toute la complexité technique pour vous laisser vous concentrer exclusivement sur la croissance de votre entreprise.",
+    "quoteText": "Ne vous limitez pas au web : sécurisez dès aujourd'hui votre place sur l'écran d'accueil de vos clients."
+  },
+  "latestWork": {
+    "badge": "Projets Récents",
+    "title": "Des Résultats Concrets",
+    "description": "Découvrez comment j'aide les entreprises à s'imposer sur le web avec une présence digitale ultra-performante. Chaque plateforme est optimisée pour la vitesse, pensée pour maximiser les conversions et taillée pour la croissance."
+  },
+  "testimonials": {
+    "badge": "Témoignages",
+    "title": "Quelques Témoignages.",
+    "description": "La meilleure preuve reste leur réussite. Découvrez comment mon approche stratégique aide concrètement les entreprises à atteindre leurs objectifs et maximiser leur rentabilité.",
+    "items": {
+      "carl": {
+        "quote": "La plateforme développée pour nos services fiscaux, nos formations en trading et nos enchères a simplifié notre gestion et amélioré l'expérience de nos clients.",
+        "designation": "Fondateur de Carl Business Group"
+      },
+      "yvenson": {
+        "quote": "Notre plateforme de services fiscaux et de consultation est plus efficace que jamais. Tout est plus simple, rapide et bien organisé.",
+        "designation": "PDG de KS Global Services"
+      },
+      "wedly": {
+        "quote": "Notre boutique en ligne est rapide, moderne et met parfaitement en valeur nos produits. Une excellente expérience pour nos clients.",
+        "designation": "PDG de NoLimit King"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page Non Trouvée",
+    "description": "La page que vous recherchez n'existe pas ou a peut-être été déplacée.",
+    "backHome": "Retour à l'accueil"
+  }
+}

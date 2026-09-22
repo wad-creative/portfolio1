@@ -1,4 +1,5 @@
 import BlurFade from "../magicui/blur-fade";
+import { useTranslations } from "next-intl";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -16,6 +17,8 @@ const TECHNOLOGIES = [
 ];
 
 export default function TechStack() {
+  const t = useTranslations("techStack");
+
   return (
     <section id="tech-stack" className="py-12">
       <div className="flex flex-col gap-y-12">
@@ -25,7 +28,7 @@ export default function TechStack() {
             <div className="flex-1 h-px bg-linear-to-r from-transparent via-border to-transparent" />
             <div className="border bg-primary z-10 rounded-xl px-4 py-1 shrink-0 mx-4">
               <span className="text-background text-sm font-medium">
-                Technologies & outils
+                {t("badge")}
               </span>
             </div>
             <div className="flex-1 h-px bg-linear-to-l from-transparent via-border to-transparent" />
@@ -33,14 +36,10 @@ export default function TechStack() {
 
           <div className="flex flex-col gap-y-3 items-center justify-center max-w-200 px-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center">
-              Une Stack Moderne pour des Performances Inégalées.
+              {t("title")}
             </h2>
             <p className="md:text-lg/relaxed text-muted-foreground text-balance text-center">
-              Je m'appuie sur une stack moderne, ultra-performante et
-              parfaitement évolutive, sélectionnée pour supporter de forts
-              volumes de trafic, offrir des expériences fluides sans aucun
-              ralentissement et offrir une sécurité et une fiabilité
-              exceptionnelles.
+              {t("description")}
             </p>
           </div>
         </div>

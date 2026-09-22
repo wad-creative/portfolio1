@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Wad-Creative | Web Developer & Strategic Growth Partner",
+    "description": "Strategic web developer specializing in profitable digital solutions, local SEO, and high-performance applications."
+  },
+  "navbar": {
+    "home": "Home",
+    "theme": "Theme",
+    "languageToggle": "Change language",
+    "switchToEn": "English",
+    "switchToFr": "Français"
+  },
+  "hero": {
+    "badge": "Available for new projects",
+    "title": "I build digital solutions designed to maximize your profitability.",
+    "description": "I develop high-performance web platforms to ensure profitable growth through custom engineering, local SEO optimization, and conversion marketing.",
+    "cta": "Chat with me",
+    "authorPrefix": "By",
+    "authorName": "Wadley Alphonse",
+    "authorRole": "Your Strategic Growth Partner"
+  },
+  "whatNew": {
+    "badge": "The New Vision",
+    "title": "A website only has value if it generates revenue.",
+    "description": "I choose to go beyond the role of a conventional web developer to become your strategic growth partner. My goal is to craft tailored solutions designed to maximize your bottom line.",
+    "services": {
+      "strategic": {
+        "title": "Strategic Development",
+        "description": "Cutting-edge web applications custom-built for conversion. More than just websites, I build true digital sales engines."
+      },
+      "localSeo": {
+        "title": "Local Domination (SEO)",
+        "description": "Advanced Google Business and Maps optimization ensuring local customers discover you ahead of direct competitors."
+      },
+      "analytics": {
+        "title": "Actionable Data & Analytics",
+        "description": "Integration of precision analytics to decode visitor behavior, steer strategy, and maximize visibility."
+      },
+      "acquisition": {
+        "title": "Acquisition & Performance",
+        "description": "Tailored Facebook Ads coaching to transform your ad campaigns into steady streams of qualified leads and sustainable profitability."
+      }
+    },
+    "quoteBold": "I handle all technical complexity so you can stay fully focused on running your business.",
+    "quoteText": "Don't settle for a basic website—invest in a strategic growth asset."
+  },
+  "techStack": {
+    "badge": "Technologies & Tools",
+    "title": "A Modern Stack for Unrivaled Performance.",
+    "description": "I rely on a modern, high-performance, and scalable stack selected to handle heavy traffic volumes, deliver frictionless experiences without slowdowns, and provide exceptional security."
+  },
+  "mobile": {
+    "badge": "Custom Mobile Applications",
+    "title": "Tailor-Made Mobile Applications.",
+    "description": "A mobile application is a powerful growth lever and brings you closer to your users. I develop reliable, intuitive, and scalable cross-platform solutions built to deliver an optimal experience and drive your business forward.",
+    "quoteBold": "I take care of all technical complexity to let you concentrate exclusively on business expansion.",
+    "quoteText": "Don't limit yourself to the web: secure your spot on your customers' home screen today."
+  },
+  "latestWork": {
+    "badge": "Recent Projects",
+    "title": "Concrete Results",
+    "description": "Explore how I empower businesses to thrive online with a high-performance digital presence. Every platform is speed-optimized, designed to maximize conversions, and engineered for growth."
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "Client Testimonials.",
+    "description": "The best proof is their success. Discover how my strategic approach genuinely helps businesses hit their targets and maximize profitability.",
+    "items": {
+      "carl": {
+        "quote": "The platform built for our tax services, trading courses, and auctions simplified our management and noticeably improved our client experience.",
+        "designation": "Founder of Carl Business Group"
+      },
+      "yvenson": {
+        "quote": "Our tax services and consultation platform is more efficient than ever. Everything is simpler, faster, and remarkably well organized.",
+        "designation": "CEO of KS Global Services"
+      },
+      "wedly": {
+        "quote": "Our online store is fast, modern, and highlights our products beautifully. An outstanding experience for our customers.",
+        "designation": "CEO of NoLimit King"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or may have been moved.",
+    "backHome": "Back to Home"
+  }
+}

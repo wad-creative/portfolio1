@@ -2,34 +2,34 @@
 
 import { AnimatedTestimonials } from "../ui/animated-testimonials";
 import BlurFade from "../magicui/blur-fade";
+import { useTranslations } from "next-intl";
 
 const BLUR_FADE_DELAY = 0.04;
 
-const TESTIMONIALS = [
-  {
-    quote:
-      "La plateforme développée pour nos services fiscaux, nos formations en trading et nos enchères a simplifié notre gestion et amélioré l'expérience de nos clients.",
-    name: "Mr. Carl",
-    designation: "Fondateur de Carl Business Group",
-    src: "/testimonial1.jpg",
-  },
-  {
-    quote:
-      "Notre plateforme de services fiscaux et de consultation est plus efficace que jamais. Tout est plus simple, rapide et bien organisé.",
-    name: "Mr. Yvenson",
-    designation: "PDG de KS Global Services",
-    src: "/testimonial2.JPG",
-  },
-  {
-    quote:
-      "Notre boutique en ligne est rapide, moderne et met parfaitement en valeur nos produits. Une excellente expérience pour nos clients.",
-    name: "Mr. Wedly",
-    designation: "PDG de NoLimit King",
-    src: "/testimonial3.jpg",
-  },
-];
-
 export default function TestimonialsSection() {
+  const t = useTranslations("testimonials");
+
+  const testimonials = [
+    {
+      quote: t("items.carl.quote"),
+      name: "Mr. Carl",
+      designation: t("items.carl.designation"),
+      src: "/testimonial1.jpg",
+    },
+    {
+      quote: t("items.yvenson.quote"),
+      name: "Mr. Yvenson",
+      designation: t("items.yvenson.designation"),
+      src: "/testimonial2.JPG",
+    },
+    {
+      quote: t("items.wedly.quote"),
+      name: "Mr. Wedly",
+      designation: t("items.wedly.designation"),
+      src: "/testimonial3.jpg",
+    },
+  ];
+
   return (
     <section id="testimonials" className="py-4">
       <div className="flex min-h-0 flex-col gap-y-4">
@@ -39,7 +39,7 @@ export default function TestimonialsSection() {
             <div className="flex-1 h-px bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent" />
             <div className="border bg-primary z-10 rounded-xl px-4 py-1">
               <span className="text-background text-sm font-medium">
-                Témoignages
+                {t("badge")}
               </span>
             </div>
             <div className="flex-1 h-px bg-linear-to-l from-transparent from-5% via-border via-95% to-transparent" />
@@ -47,12 +47,10 @@ export default function TestimonialsSection() {
 
           <div className="flex flex-col gap-y-3 items-center justify-center max-w-[800px] px-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center">
-              Quelques Témoignages.
+              {t("title")}
             </h2>
             <p className="md:text-lg/relaxed text-muted-foreground text-balance text-center">
-              La meilleure preuve reste leur réussite. Découvrez comment mon
-              approche stratégique aide concrètement les entreprises à atteindre
-              leurs objectifs et maximiser leur rentabilité.
+              {t("description")}
             </p>
           </div>
         </div>
@@ -60,7 +58,7 @@ export default function TestimonialsSection() {
         {/* Animated Testimonials Component */}
         <BlurFade delay={BLUR_FADE_DELAY * 15}>
           <div className="max-w-5xl mx-auto px-4">
-            <AnimatedTestimonials testimonials={TESTIMONIALS} autoplay={true} />
+            <AnimatedTestimonials testimonials={testimonials} autoplay={true} />
           </div>
         </BlurFade>
 

@@ -1,5 +1,6 @@
 import BlurFade from "../magicui/blur-fade";
 import { ExternalLink } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -19,19 +20,26 @@ const PROJECTS = [
     image: "/project-3.png",
     link: "https://www.ksglobalservices.net",
   },
+  {
+    title: "www.junea.shop",
+    image: "/project-4.png",
+    link: "https://www.junea.shop",
+  },
 ];
 
 export default function LatestWork() {
+  const t = useTranslations("latestWork");
+
   return (
     <section id="latest-work" className="py-12">
       <div className="flex min-h-0 flex-col gap-y-12">
-        {/* Header Section - Kept exactly as requested */}
+        {/* Header Section */}
         <div className="flex flex-col gap-y-4 items-center justify-center">
           <div className="flex items-center w-full">
             <div className="flex-1 h-px bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent" />
             <div className="border bg-primary z-10 rounded-xl px-4 py-1">
               <span className="text-background text-sm font-medium">
-                Projets Récents
+                {t("badge")}
               </span>
             </div>
             <div className="flex-1 h-px bg-linear-to-l from-transparent from-5% via-border via-95% to-transparent" />
@@ -39,13 +47,10 @@ export default function LatestWork() {
 
           <div className="flex flex-col gap-y-3 items-center justify-center max-w-200 px-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center">
-              Des Résultats Concrets
+              {t("title")}
             </h2>
             <p className="md:text-lg/relaxed text-muted-foreground text-balance text-center">
-              Découvrez comment j'aide les entreprises à s'imposer sur le web
-              avec une présence digitale ultra-performante. Chaque plateforme
-              est optimisée pour la vitesse, pensée pour maximiser les
-              conversions et taillée pour la croissance.
+              {t("description")}
             </p>
           </div>
         </div>
@@ -60,6 +65,7 @@ export default function LatestWork() {
               <a
                 href={project.link}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="group block space-y-2"
               >
                 {/* Refined Image Container */}
